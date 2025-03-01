@@ -17,7 +17,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://dobby-backend-h4qb.onrender.com"
+      "https://dobby-frontend-beta.vercel.app"
     ],
     credentials: true,
   })
