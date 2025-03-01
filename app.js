@@ -17,6 +17,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "https://dobby-backend-h4qb.onrender.com"
     ],
     credentials: true,
   })
